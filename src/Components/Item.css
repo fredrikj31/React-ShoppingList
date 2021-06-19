@@ -1,0 +1,24 @@
+.Item {
+	background-color: #C879FF;
+	margin: auto;
+	padding: 10px;
+	width: 30%;
+}
+
+.Text {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+.DoneButton {
+	float: right;
+	margin-right: 15px;
+	color: #CAFF8A;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: transparent;
+	border: none;
+}
+.DoneButton:hover {
+	cursor: pointer;
+}
