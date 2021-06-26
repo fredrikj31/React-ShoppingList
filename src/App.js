@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './Components/Header';
-import Item from './Components/Item';
+import List from './Components/List';
 
 function App() {
   return (
     <div className="App">
       <Header title="Welcome to this App"></Header>
-	  <Item todo="Hello World"></Item>
+	  <List todos={["Hej med dig", "Test 2", "Hej"]}></List>
     </div>
   );
 }

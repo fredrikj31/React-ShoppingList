@@ -12,7 +12,7 @@ class Item extends React.Component {
 
 	render() {
 		return (
-			<div className="Item">
+			<div className="Item" id={this.props.id}>
 				<span className="Text">{this.props.todo}</span>
 				<button className="DoneButton" onClick={this.markAsDone}>&#x2713;</button>
 			</div>
